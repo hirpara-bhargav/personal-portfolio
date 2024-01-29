@@ -46,20 +46,33 @@
         .firstSection {
             display: flex;
             justify-content: space-around;
-            margin: 23px 0;
+            align-items: center;
+            margin: 80px 0;
         }
 
-        .firstSection div {
+        .firstSection>div {
             width: 30%;
         }
 
         .leftSection {
-            font-size: 3rem;
+            font-size: 2.7rem;
+            
+
         }
-        
-        .rightSection img{
+
+        .rightSection {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .rightSection img {
             width: 80%;
             margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(156, 84, 223);
         }
     </style>
 
@@ -86,8 +99,9 @@
         <section class="firstSection">
 
             <div class="leftSection">
-                Hi, My name is Bhargav
-                <div>and I am a Web Developer</div>
+                Hi, My name is <span class="purple">Bhargav</span>
+                <div>and I am a Passionate</div>
+                <div>Web Developer</div>
             </div>
             <div class="rightSection">
                 <img src="developer.png" alt="Background Image">
